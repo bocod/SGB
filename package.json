@@ -9,6 +9,7 @@
   "author": "bocod",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "normalize": "^0.3.1"
   }
 }
