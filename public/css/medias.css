@@ -1,0 +1,60 @@
+@media(min-width: 737px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+    h1 {
+        width: 50%;
+    }
+    .nav-bar {
+        font-size: 1.25rem;
+    }
+    .upper-main img {
+        max-width: 300px;
+    }
+    .content {
+        padding: 2rem;
+        font-size: 1.25rem;
+    }
+    .contact {
+        font-size: 1.25rem;
+    }
+    .app-button{
+        padding: 1rem;
+        width: 150px;
+    }
+    .instructions {
+        display: block;
+        padding: 1rem;
+    }
+    .referral {
+        border: solid 1px #888;
+        border-radius: 25px;
+        padding: 1rem;
+        box-shadow: #999 0px 0px 6px 1px;
+        width: 200px;
+        text-align: center;
+    }
+    footer .disclosure {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1299px) {
+    h1 {
+        width: 20%;
+    }
+    .nav-bar {
+        width: 80%;
+    }
+    .nav-bar ul {
+        flex-direction: row;
+    }
+    .content-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+    .content {
+        width: 30%;
+    }
+}

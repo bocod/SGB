@@ -1,5 +1,5 @@
 footer {
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 footer a {
@@ -18,7 +18,12 @@ footer a {
 }
 
 .upper-footer .footer-img img{
+    width: 160px;
     max-width: 100%;
+}
+
+footer .fa-linkedin{
+    font-size: 2rem;
 }
 
 .upper-footer a {

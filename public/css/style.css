@@ -53,6 +53,7 @@ body {
 
 .contact {
     margin: auto;
+    margin-top: 2rem;
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -77,12 +78,18 @@ body {
 .app-button {
     border: solid 1px #888;
     border-radius: 25px;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     box-shadow: #999 0px 0px 6px 1px;
+    width: 120px;
+    text-align: center;
 }
 
 .contact .referral {
     margin: 1rem;
     font-weight: 600;
     font-size: 1.2rem;
+}
+
+.instructions{
+    display: none;
 }

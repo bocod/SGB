@@ -13,6 +13,7 @@ h1 {
 
 h1 img {
     width: 50%;
+    max-width: 250px;
 }
 
 nav ul {
@@ -21,6 +22,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     padding: 0 1rem;
 }
 
@@ -34,4 +36,5 @@ nav ul {
     border-radius: 25px;
     box-shadow: #999 0px 0px 5px 4px;
     margin: 0.5rem;
+    width: 300px;
 }
