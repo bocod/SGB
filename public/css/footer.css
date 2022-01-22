@@ -1,0 +1,37 @@
+footer {
+    margin-top: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.upper-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.upper-footer .footer-img {
+    max-width: 30%;
+}
+
+.upper-footer .footer-img img{
+    max-width: 100%;
+}
+
+.upper-footer a {
+    color: #333;
+}
+
+.disclosure {
+    font-size: 10px;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.disclosure a {
+    color: #ffffff;
+}

@@ -7,31 +7,6 @@ body {
     width: 100vw;
 }
 
-header {
-    background-color: #888;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 1px solid #666;
-}
-
-h1 {
-    margin: 0;
-}
-
-h1 img {
-    width: 100%;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 1rem;
-}
-
 .upper-main {
     padding: 1rem 0;
     display: flex;
@@ -67,6 +42,15 @@ nav ul {
     text-align: justify;
 }
 
+.even {
+    opacity: 90%;
+}
+
+.odd {
+    background-color: black;
+    opacity: 65%;
+}
+
 .contact {
     margin: auto;
     width: 90vw;
@@ -85,6 +69,20 @@ nav ul {
     justify-content: space-around;
 }
 
+.contact a {
+    text-decoration: none;
+    color: #444;
+}
+
+.app-button {
+    border: solid 1px #888;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    box-shadow: #999 0px 0px 6px 1px;
+}
+
 .contact .referral {
     margin: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
 }

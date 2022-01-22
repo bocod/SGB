@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,16 +18,7 @@
     <title>SGB - Asesor</title>
 </head>
 <body>
-    <header>
-        <h1><img src="/images/logo.png" alt="SGB Agente de Negociación"></h1>
-        <nav>
-            <ul>
-                <li>Servicios</li>
-                <li>Contacto</li>
-                <li>Abrir cuenta</li>
-            </ul>
-        </nav>
-    </header>
+    <%- include('./partials/header') %> 
 
     <main>
         <section class="upper-main">
@@ -36,7 +29,7 @@
             </article>
         </section>
 
-        <div class="content-wrapper">
+        <div class="content-wrapper" id="services">
             <section class="content">
                 <h3>El Agente de Negociación...</h3>
                 <article>
@@ -70,19 +63,19 @@
             </section>
         </div>
 
-        <section class="contact">
+        <section class="contact" id="open-account">
             <h3>Abri tu cuenta</h3>
             <ul>
-                <li><i class="fab fa-apple"></i> App Store</li>
-                <li><i class="fab fa-google-play"></i> Google Play</li>
+                <li class="app-button"><a href="https://apps.apple.com/ar/app/inviu/id1516524838"><i class="fab fa-apple"></i> App Store</a></li>
+                <li class="app-button"><a href="https://play.google.com/store/apps/details?id=io.igam.inviu.investor&hl=es_AR&gl=US"><i class="fab fa-google-play"></i> Google Play</a></li>
             </ul>
-            <p class=referral>Asesor: SGB.INVIU</p>
-            <p class="whatsapp">Cualquier duda estoy a un click: <i class="fab fa-whatsapp"></i></p>
+            <p class="referral">Asesor: SGB.INVIU</p>
+            <p class="app-button whatsapp" id="contact"><a href="https://wa.me/5493415861718?text=Hola%20Sebastian%20necesito%20asesoramiento%20por%20INVIU%20">Contactame: <i class="fab fa-whatsapp"></i></a></p>
         </section>
     </main>
 
-    <footer>
-        <p>&copy | Disclosure</p>
-    </footer>
+    <%- include('./partials/footer') %> 
+
+    <script src="/js/index.js"></script>
 </body>
 </html>
