@@ -18,6 +18,7 @@ body {
 .upper-main img {
     width: 50%;
     border-radius: 50%;
+    box-shadow: #888 0px 0px 12px 3px;
 }
 
 .profile-details h2, p {
