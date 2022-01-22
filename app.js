@@ -1,11 +1,10 @@
-const { O_DIRECT } = require('constants');
 const express = require('express');
 const path = require('path');
 
 const app = express();
 
-app.listen(3000, ()=>{
-    console.log('Server running on porth 3000')
+app.listen( process.env.PORT || 3000, ()=>{
+    console.log('Server running!!!')
 });
 
 app.set('view engine', 'ejs');
