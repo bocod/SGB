@@ -19,6 +19,10 @@
     .contact {
         font-size: 1.25rem;
     }
+    .contact ul {
+        max-width: 500px;
+        justify-content: space-between;
+    }
     .app-button{
         padding: 1rem;
         width: 150px;
